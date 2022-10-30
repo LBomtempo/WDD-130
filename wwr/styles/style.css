@@ -146,7 +146,7 @@ footer p a:hover {
 }
 
 .home-title {
-    color: #363636;
+    color: #F3F3F3;
     font-family: "RocknRoll One", sans-serif;
     font-size: 2em;
     margin-top: 50px;
@@ -271,9 +271,12 @@ header {
     #hero-msg h4 {
         display: none;
     }
+    #hero-msg h1 {
+        color: #363636;
+    }
     .home-title {
         font-size: 25px;
-        color: #6f7364;
+        color: #363636;
     }
     .rivers-card, .camping-card, .rapids-card { 
         margin: 50px auto;
