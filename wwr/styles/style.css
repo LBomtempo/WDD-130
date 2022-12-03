@@ -122,6 +122,7 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 20px;
     
 }
 
@@ -377,6 +378,55 @@ form {
 .moveDown {
     margin-top: 3em;
 }
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #eee;
+    margin: auto;
+    width: 80%;
+    text-align: justify;
+  }
+
+  .panel p{
+    font-family: Montserrat, Helvetica, sans-serif;
+  }
+
+  .accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
+
+  .accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 8px;
+    width: 80%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-family: "RocknRoll One", sans-serif;
+    font-size: 1.1em;
+    display: block;
+    margin: auto;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
