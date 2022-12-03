@@ -380,7 +380,7 @@ form {
 }
 
 .panel {
-    padding: 0 18px;
+    padding: 0 8px;
     background-color: white;
     max-height: 0;
     overflow: hidden;
@@ -411,7 +411,7 @@ form {
     background-color: #eee;
     color: #444;
     cursor: pointer;
-    padding: 8px;
+    padding: 18px;
     width: 80%;
     text-align: left;
     border: none;
@@ -420,7 +420,7 @@ form {
     font-family: "RocknRoll One", sans-serif;
     font-size: 1.1em;
     display: block;
-    margin: auto;
+    margin: 10px auto;
   }
   
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
